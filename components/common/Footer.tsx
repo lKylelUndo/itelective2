@@ -11,14 +11,14 @@ const Footer = () => {
           </div>
 
           <div className="flex flex-col gap-y-2">
-            <h1>Pages</h1>
+            <h1 className="font-semibold">Pages</h1>
             <Link href={"/"} className="text-xs">Home</Link>
             <Link href={"/about"} className="text-xs">About</Link>
             <Link href={"/projects"} className="text-xs">Projects</Link>
           </div>
 
           <div className="flex flex-col gap-y-2">
-            <h1>References</h1>
+            <h1 className="font-semibold">References</h1>
             <Link href={"*"} className="text-xs">Reference 1</Link>
             <Link href={"*"} className="text-xs">Reference 2</Link>
             <Link href={"*"} className="text-xs">Reference 3</Link>
@@ -26,7 +26,7 @@ const Footer = () => {
 
 
           <div className="flex flex-col gap-y-2">
-            <h1>Connect</h1>
+            <h1 className="font-semibold">Connect</h1>
             <Link href={"*"} className="text-xs">Email</Link>
             <Link href={"*"} className="text-xs">Facebook</Link>
           </div>
