@@ -27,8 +27,9 @@ const Footer = () => {
 
           <div className="flex flex-col gap-y-2">
             <h1 className="font-semibold">Connect</h1>
-            <Link href={"*"} className="text-xs">Email</Link>
-            <Link href={"*"} className="text-xs">Facebook</Link>
+            <Link href={"mailto:ando.kyle404@gmail.com"} className="text-xs">Email</Link>
+            <Link href={"https://www.facebook.com/kyle.ando.505"} className="text-xs">Facebook</Link>
+            <Link href={"https://www.linkedin.com/in/kyle-ando-942947289/"} className="text-xs">LinkedIn</Link>
           </div>
         </div>
         
