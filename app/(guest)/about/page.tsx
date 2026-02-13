@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Info } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function AboutPage() {
   return (
@@ -32,9 +33,11 @@ export default function AboutPage() {
               View CV
             </Button>
 
-            <Button variant={"outline"} className="mt-6 w-37.5">
-              View Blogs
-            </Button>
+            <Link href={"/blogs"}>
+              <Button variant={"outline"} className="mt-6 w-37.5">
+                Blogs
+              </Button>
+            </Link>
           </div>
 
           <div>
