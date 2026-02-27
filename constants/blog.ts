@@ -4,7 +4,8 @@ export type BlogType = {
   blog_duration: string,
   blog_description: string,
   blog_content: string,
-  blog_author: string
+  blog_author: string,
+  blog_category?: string[]
 }
 
 export const blogsObj: BlogType[] = [
@@ -15,6 +16,7 @@ export const blogsObj: BlogType[] = [
     blog_description: "How small daily habits build discipline, reduce stress, and create long-term personal growth.",
     blog_content: "Consistency builds discipline by encouraging small daily actions that compound over time, helping reduce stress, improve focus, and create long-term personal and professional growth.",
     blog_author: "James Clear",
+    blog_category: ["life"]
   },
   {
     id: "2",
@@ -23,6 +25,7 @@ export const blogsObj: BlogType[] = [
     blog_description: "A quick look at stress, anxiety, burnout, and depression among students and how to manage them.",
     blog_content: "Students commonly face stress, anxiety, burnout, and emotional pressure due to academic and social expectations, and recognizing these early can help maintain better mental health and balance.",
     blog_author: "Dr. Sarah Mitchell",
+    blog_category: ["health"]
   },
   {
     id: "3",
@@ -31,5 +34,6 @@ export const blogsObj: BlogType[] = [
     blog_description: "Understanding motivation, communication, and leadership strategies for better team performance.",
     blog_content: "Effective leadership requires understanding motivation, practicing clear communication, and building trust so teams feel valued, productive, and aligned with organizational goals.",
     blog_author: "Daniel Goleman",
+    blog_category: ["leadership"]
   },
 ];
