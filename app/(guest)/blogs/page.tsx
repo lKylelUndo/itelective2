@@ -15,7 +15,7 @@ export default function BlogsPage() {
         <Button variant={"outline"}><Link href={"/blogs/leadership"}>Leadership</Link></Button>
       </div>
 
-      <div className="p-5 grid grid-cols-1 lg:grid-cols-3 gap-x-4 mt-4">
+      <div className="p-5 grid grid-cols-1 lg:grid-cols-3 gap-x-4  gap-y-4 mt-4">
         {blogsObj.map((blog: BlogType) => (
             <div key={blog.id} className="bg-background dark:bg-card rounded shadow space-y-4 p-4">
                 <span className="text-xs font-semibold">{blog.blog_duration} mins read</span>

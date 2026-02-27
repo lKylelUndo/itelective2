@@ -15,7 +15,7 @@ export default async function ViewSingleCategoryPage({ params } : { params: { ca
         <section className="px-6 container mx-auto">
             <div className="mt-4"><Link href={"/blogs"}><ArrowLeft className="inline" /> Back to Blogs</Link></div>
 
-            <div className="p-5 grid grid-cols-1 lg:grid-cols-3 gap-x-4 mt-4">
+            <div className="p-5 grid grid-cols-1 lg:grid-cols-3 gap-x-4 gap-y-4 mt-4">
                 {matchCategories.map((m) => (
                   <div key={m.id} className="bg-background dark:bg-card rounded shadow space-y-4 p-4 mt-6">
                     <span className="text-xs text-primary  font-semibold">{m.blog_duration} mins read</span>
